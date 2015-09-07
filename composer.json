@@ -1,0 +1,24 @@
+{
+    "name": "root/meetup",
+    "authors": [
+        {
+            "name": "Swaraj",
+            "email": "swaraj.giri@impelsys.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "classmap": ["tests/"]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
