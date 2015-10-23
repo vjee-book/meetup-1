@@ -28,8 +28,9 @@ interface UserInterface extends StorableInterface, NameableInterface, MailableIn
      * Check if the provided password matches the stored password.
      *
      * @param string $password Text password
+     * @param string $hash Hash stored in some persistent storage
      *
      * @return bool Whether the password is correct
      */
-    public function checkPassword($password);
+    public function checkPassword($password, $hash);
 }
