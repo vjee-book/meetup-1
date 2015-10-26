@@ -4,7 +4,7 @@ namespace Meetup\Login\Core;
 
 use Meetup\Login\Core\Users\UserInterface;
 
-Class User extends UserInterface {
+Class User implements UserInterface {
 
     public function __construct($email, $password) {
         $this->setEmail($email);
